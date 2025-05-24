@@ -8,3 +8,7 @@ read clusterGUID
 
 # Install DOCTL
 ./install-doctl.sh $clusterGUID
+
+# Verify connection
+sudo kubectl cluster-info
+sudo kubectl get nodes
